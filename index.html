@@ -4,14 +4,29 @@
 <head>
   <meta charset="utf-8">
   <title>Lapio website</title>
+  <style>
+    li {
+    color: #00FFFF;
+    }
+    em {
+      color:red
+    }
+    .vihrea {
+      color: green;
+    }
+    #harmaa {
+      color: #2F4F4F;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <!--Tee tehtävät tänne-->
   <a href="file:///Users/thomastran/koulu/projekti/Lapio-website/test.html">Aleksis Kivi</a>
-  <h1>Seitsemän veljestä</h1>
+  <h1 style='color:blue;'>Seitsemän veljestä</h1>
   <img src='assets/seitsemän_veljestä.png' alt="Seitsemän veljestä" height="300" width="230"/>
-  <h2>Tärkeät päähenkilöt</h2>
+  <h2 class="vihrea">Tärkeät henkilöt</h2>
     <ul>
       <li>Päähenkilöt</li>
       <ul>
@@ -30,11 +45,8 @@
         <li>Tammiston Kyösti</li>
       </ul>
     </ul>
-  <strong>Ensimmäinen luku</strong>
-  <head>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <p><strong>Jukolan</strong> talo, eteläisessä <em>Hämeessä</em>, seisoo erään mäen pohjoisella rinteellä, liki <strong><em>Toukolan kylää.</em></strong></p>
+  <strong class="vihrea">Ensimmäinen luku</strong>
+  <p><strong class="vihrea" id="harmaa">Jukolan</strong> talo, eteläisessä <em class="vihrea" id="harmaa">Hämeessä</em>, seisoo erään mäen pohjoisella rinteellä, liki <strong><em class="vihrea" id="harmaa">Toukolan kylää.</em></strong></p>
   <p>Sen läheisin ympäristö on kivinen tanner, mutta alempana alkaa pellot, joissa, ennenkuin talo oli häviöön mennyt, aaltoili teräinen vilja.</p>
   <em>jatkuu..</em>
 </body>
